@@ -162,7 +162,7 @@ for name, def in pairs(glasses) do
         description = S("@1 Tinted Glass Pane", def.name),
         textures = {
             "tinted_glass_" .. name .. ".png^moreblocks_clean_glass.png", "",
-            "tinted_glass_edge.png"
+            "moreblocks_clean_glass.png^[verticalframe:16:0"
         },
         inventory_image = "tinted_glass_" .. name .. ".png^moreblocks_clean_glass.png",
         wield_image = "tinted_glass_" .. name .. ".png^moreblocks_clean_glass.png",

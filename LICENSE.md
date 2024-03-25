@@ -25,4 +25,4 @@
 
 All textures in this mod are licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/).
 
-Except `tinted_glass_edge.png` (made by Calinou), all other textures are made by Och Noe.
+All textures are made by Och Noe.

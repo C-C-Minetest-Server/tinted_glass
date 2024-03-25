@@ -1,0 +1,24 @@
+# textdomain: tinted_glass
+
+##[ init.lua ]##
+Blue=
+Cyan=
+Green=
+Grey=
+Red=
+Magenta=
+White=
+Yellow=
+Brown=
+Dark Green=
+Dark Grey=
+Orange=
+Pink=
+Violet=
+Dark Magenta=
+Dark Orange=
+Dark Pnk=
+Dark Red=
+Dark Violet=
+Dark Yellow=
+@1 Tinted Glass=

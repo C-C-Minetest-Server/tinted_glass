@@ -156,4 +156,22 @@ for name, def in pairs(glasses) do
     if MP_advtrains_doors then
         advtrains_doors.register_platform_gate("tinted_glass:glass_" .. name)
     end
+
+    -- xpanes
+    xpanes.register_pane("tinted_glass_" .. name, {
+        description = S("@1 Tinted Glass Pane", def.name),
+        textures = {
+            "tinted_glass_" .. name .. ".png^moreblocks_clean_glass.png", "",
+            "tinted_glass_edge.png"
+        },
+        inventory_image = "tinted_glass_" .. name .. ".png^moreblocks_clean_glass.png",
+        wield_image = "tinted_glass_" .. name .. ".png^moreblocks_clean_glass.png",
+        sounds = default.node_sound_glass_defaults(),
+        groups = { cracky = 3, oddly_breakable_by_hand = 3 },
+        recipe = {
+            { "tinted_glass:glass_" .. name, "tinted_glass:glass_" .. name, "tinted_glass:glass_" .. name },
+            { "tinted_glass:glass_" .. name, "tinted_glass:glass_" .. name, "tinted_glass:glass_" .. name },
+        },
+        use_texture_alpha = true,
+    })
 end
